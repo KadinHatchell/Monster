@@ -13,6 +13,11 @@ public class MonsterController
 	public void start()
 	{
 		System.out.println("Here is my first monster " + Henry);
+		System.out.println("My monster has this many eyes: " + Henry.getEyeCount());
+		if(Henry.getEyeCount()> 3)
+		{
+			System.out.println("Woah that's a lot of eyes!!!!!! - Scary");
+		}
 	}
 
 }
