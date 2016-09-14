@@ -30,13 +30,35 @@ public class MarshmallowMonster
 		this.noseCount = noseCount;
 
 	}
-	/*
-	 * name = Henry
-	 * armcount = 2
-	 * eyecount = 2
-	 * hasbellybutton = false
-	 * antennacount = 3
-	 * nosecount= 0
-	 */
+	
+	public String toString()
+	{
+		String description = "Name is " + this.name;
+		
+		return description;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	public double antennaCount()
+	{
+		return antennaCount;
+	}
+	public int getEyeCount()
+	{
+		return eyeCount;
+	}
+	public boolean hasBellyButton()
+	{
+		return hasBellyButton;
+	}
+	public int armCount()
+	{
+		return armCount;
+	}
+	public int noseCount(){
+		return noseCount;
+	}
 
 }
